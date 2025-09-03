@@ -1,0 +1,6 @@
+class Main {
+    public static void main(String[] args) {
+        /* The program is about Printing Hello World!, in java programming language*/
+        System.out.println("Hello World!");
+    }
+}
