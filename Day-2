@@ -1,0 +1,9 @@
+class Main {
+    public static void main(String[] args) {
+        int id;
+        id=12076;
+        double sal=100000;
+        String branch="Java";
+        System.out.println("Employee details:"+id+" "+sal+" "+branch);
+    }
+}
