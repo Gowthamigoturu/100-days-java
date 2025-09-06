@@ -1,0 +1,17 @@
+//Input and Output
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter your name: ");
+        String s=sc.next();
+        System.out.println("Enter employee ID: ");
+        int i=sc.nextInt();
+        System.out.println("Enter your salary: ");
+        double d=sc.nextDouble();
+        System.out.println("----------------------------");
+        System.out.println("name: " +s);
+        System.out.println("ID: " +i);
+        System.out.println("salary: " +d);
+    }
+}
