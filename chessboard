@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Main {
+    public static String determineColor(String s) {
+        char a[]=s.toCharArray();
+        char col=a[0];
+        char row=a[1];
+        int c=(int) col;
+        int r=(int) row;
+        int value=c+r;
+        if(value%2==0){
+            return "Black";
+        }
+        else{
+            return "White";
+        }    
+    }
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String s = scanner.nextLine().trim();
+        String result = determineColor(s);
+        System.out.println(result);
+    }
+}
