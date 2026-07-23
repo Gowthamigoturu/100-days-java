@@ -1,0 +1,15 @@
+import java.util.List;
+
+class Main {
+    public static void main(String[] args) {
+        List<Integer> list = List.of(1, 2, 3, 4, 5); // All positive
+        boolean allPositive = true;
+        for (int num : list) {
+            if (num <= 0) {
+                allPositive = false;
+                break; 
+            }
+        }
+        System.out.println("Are all numbers positive? " + allPositive);
+    }
+}
